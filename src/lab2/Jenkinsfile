@@ -1,0 +1,12 @@
+pipeline {
+	agent any
+	tools {
+		jdk "jdk"
+		maven "maven"
+	}
+	stages{
+		stage("Build"){
+			echo "Hello, comp367 "
+		}
+	}
+}
