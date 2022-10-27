@@ -7,7 +7,7 @@ pipeline {
 	stages{
 		stage("Build"){
 			steps{
-				set current_time=%time:~0,5% 
+				set current_time="11:00" 
 				if(%current_time% > "12:00"){
 
 					echo "Good Afternoon Veysel. Welcome to COMP367 "
