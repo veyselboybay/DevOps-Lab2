@@ -6,7 +6,9 @@ pipeline {
 	}
 	stages{
 		stage("Build"){
-			echo "Hello, comp367 "
+			steps{
+				echo "Hello, comp367 "
+			}
 		}
 	}
 }
